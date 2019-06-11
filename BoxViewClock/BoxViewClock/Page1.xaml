@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:boxViewClock="clr-namespace:BoxViewClock;assembly=BoxViewClock"
+             x:Class="BoxViewClock.Page1"
+             BackgroundColor="DarkGray">
+    <ContentPage.Content>
+        
+        <StackLayout x:Name="TaskPanel2"
+                     Orientation="Horizontal"
+                             Spacing="5">
+            <Button x:Name="btn1"
+                            Margin="0,0,0,0"
+                            BorderRadius="0"
+                            BackgroundColor="White"
+                            WidthRequest="200"
+                            BorderWidth="0"
+                            BorderColor="Transparent"
+                            Clicked="OnClicked"
+                            Image="check.png" />
+            <Button x:Name="btn2"
+                            Margin="0,0,0,0"
+                            BorderRadius="0"
+                            BackgroundColor="White"
+                            WidthRequest="200"
+                            BorderWidth="0"
+                            BorderColor="Transparent"
+                            Clicked="OnClicked"
+                            Image="check.png" />
+            <Button x:Name="btn3"
+                            Margin="0,0,0,0"
+                            BorderRadius="0"
+                            BackgroundColor="White"
+                            WidthRequest="200"
+                            BorderWidth="0"
+                            BorderColor="Transparent"
+                            Clicked="OnClicked"
+                            Image="check.png" />
+            <Button x:Name="btn4"
+                            Margin="0,0,0,0"
+                            BorderRadius="0"
+                            BackgroundColor="White"
+                            WidthRequest="200"
+                            BorderWidth="0"
+                            BorderColor="Transparent"
+                            Clicked="OnClicked"
+                            Image="check.png" />
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
